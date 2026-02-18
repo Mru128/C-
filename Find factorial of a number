@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n,i,fact;
+    fact=1;
+    cout<<"enter number"<<endl;
+    cin>>n;
+    for(i=n;i>=1;i--){
+        fact=fact*i;
+    }
+    cout<<"factorial of given number is"<<fact<<endl;
+    return 0;
+}
