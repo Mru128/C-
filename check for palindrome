@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+int n,sum,rev,l;
+cout<<"enter number"<<endl;
+cin>>n;
+sum=n;
+while(n>0){
+    l=n%10;
+    rev=rev*10+l;
+    n=n/10;
+}
+if(sum==rev)
+cout<<sum<<":entered number is palindrome";
+else
+cout<<sum <<":entered number is not palindrome";
+return 0;
+}
