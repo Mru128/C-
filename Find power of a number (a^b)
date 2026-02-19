@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,i;
+    cout<<"enter value of a"<<endl;
+    cin>>a;
+    cout<<"enter value of b"<<endl;
+    cin>>b;
+    long prd=1;
+    for(i=1;i<=b;i++){
+        prd=prd*a;
+    }
+    cout<<"a^b is "<<prd;
+    return 0;
+}
