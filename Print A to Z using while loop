@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+    char alpha='A';
+    while(alpha<= 'Z'){
+        cout<<alpha<<endl;
+        alpha++;
+    }
+return 0;
+}
