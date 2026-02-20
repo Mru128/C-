@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    string password = "admin";
-    string input;
+    string correctpassword = "khulja";
+    string password;
     int attempts = 0;
 
     while(attempts < 3) {
         cout << "Enter password: ";
-        cin >> input;
+        cin >> password;
 
-        if(input == password) {
-            cout << "Login Successful";
+        if(password == correctpassword) {
+            cout << "====WELCOME====";
             return 0;
         }
         else {
@@ -21,6 +21,7 @@ int main() {
         attempts++;
     }
 
-    cout << "Account Locked";
+    cout << "====ACCOUNT LOCKED====";
     return 0;
 }
+   
